@@ -1,6 +1,6 @@
 baseurl = "/"  # Include trailing slash
 title = "LIFT.CODE.PLAY"
-theme = "hugo-swift-theme"
+# theme = "hugo-swift-theme"
 author = "Ben Chartrand"
 copyright = "Copyright © 2015–2020 Ben Chartrand"
 canonifyurls = true
