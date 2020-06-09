@@ -4,7 +4,7 @@ theme = "hugo-swift-theme"
 author = "Ben Chartrand"
 copyright = "Copyright © 2015–2020 Ben Chartrand"
 canonifyurls = true
-paginate = 6
+paginate = 500
 # Enable syntax highlighting
 # comment on delete the following lines 11 ~ 13
 pygmentsCodefences = true
@@ -16,7 +16,7 @@ pygmentsCodefencesGuessSyntax = true
   # ga_verify = "" # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
   twitter = "@bcnzer" # twitter handle e.g @weru
   # logo = "logo.png"
-  # author = "Weru" # default author
+  author = "Ben Chartrand" # default author
   # image = "placeholder-image.png" # used whenever a page image is not set
   # blogDir = "blogFolderName" # uncomment and edit to exclude normal pages ... see issue #57
 # [params.staticman]

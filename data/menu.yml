@@ -1,10 +1,10 @@
+- item: Home
+  url: /
+- item: Talks
+  url: talks/
 - item: About
   url: about/
-- item: Blog
-  url: ""
-- item: Category A
-  url: categories/development/
-- item: Category B
-  url: categories/golang/
-- item: Tag B
-  url: tags/go/
+- item: Contact
+  url: contact/
+- item: Twitter
+  url: https://twitter.com/bcnzer
