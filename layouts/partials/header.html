@@ -1,8 +1,14 @@
 <header class = 'nav' >
   <nav class = 'nav-menu'>
     <a href='{{ absURL "" }}' class = 'nav-brand nav_item'>{{ .Site.Title }}</a>
-    <div class = 'nav_bar-wrap'>
+    <!-- <div class = 'nav_bar-wrap'>
       <div class = 'nav_bar'></div>
-    </div>
+    </div> -->
+    <ul style="display: inline">
+      <li style="display: inline"><a href='{{ absURL "/" }}'>Home</a></li>
+      <li style="display: inline"><a href="https://liftcodeplay.wordpress.com/talks/">Talks</a></li>
+      <li style="display: inline"><a href="https://liftcodeplay.wordpress.com/about/">About</a></li>
+      <li style="display: inline"><a href="https://liftcodeplay.wordpress.com/contact/">Contact</a></li>
+    </ul>
   </nav>
 </header>

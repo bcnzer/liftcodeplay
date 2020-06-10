@@ -4,6 +4,6 @@
 {{- $normalPath := absURL (printf "images/%s" $normal) }}
 {{- $darkPath := absURL (printf "images/%s" $dark) }}
 <picture class = 'nav_logo'>
-  <source srcset = '{{ $darkPath }}' media="(prefers-color-scheme: dark)">
+  <source srcset = '{{ $darkPath }}' media="(prefers-color-scheme: light)">
   <img srcset = '{{ $normalPath }}' alt = '{{ $alt }}'>
 </picture>
