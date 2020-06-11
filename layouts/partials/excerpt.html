@@ -19,11 +19,12 @@
       </a>
       {{- end }}
     {{- end }}
-    {{- partial "copy" . }}
+    <!-- {{- partial "copy" . }} -->
     </div>
     <h3 class = 'post_link'>
       <a href='{{ .Permalink }}'>{{ .Title  }}</a>
     </h3>
     <p class = 'pale'>{{ .Summary | truncate 90 }}</p>
+    <p class = 'pale'>{{ .PublishDate.Format "2006-01-02" }}</p>
   </div>
 </li>
