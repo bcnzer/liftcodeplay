@@ -1,7 +1,7 @@
 +++
 title = "About"
 date = "2015-06-20"
-image = 'talk.png'
+image = 'aboutme.jpg'
 tags = [
   'About'
 ]

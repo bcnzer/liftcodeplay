@@ -2,6 +2,7 @@
 title = "Getting Started with Hugo"
 description = ""
 tags = [
+    "sample",
     "go",
     "golang",
     "hugo",
