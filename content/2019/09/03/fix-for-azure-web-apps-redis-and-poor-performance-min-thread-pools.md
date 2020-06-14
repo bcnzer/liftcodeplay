@@ -1,6 +1,6 @@
 ---
 author: "Ben Chartrand"
-date: 2019-09-03
+date: "2019-09-03"
 title: "Fix for Azure Web Apps, Redis and Poor Performance – Min Thread Pools"
 image: '20190903/awa-before-and-after.png'
 tags: [
