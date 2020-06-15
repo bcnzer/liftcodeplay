@@ -2,7 +2,10 @@
 author: "Ben Chartrand"
 title: "The Tale of the 1,000+ Hour Side Project"
 date: "2019-03-28"
-image: "20190328/header.png"
+image: "1000hoursideproject.png"
+tags: [
+  'Cloudflare'
+]
 ---
 
 1,000 hours is not an exaggeration. It's based on tools I used to track my time. The actual number is likely much higher.
@@ -17,15 +20,15 @@ I offered to help as they were always in need of volunteers. It also provided me
 
 One day the organizers asked me to "run the computer" at a local novice competition. That meant using their program to run the competition. Turns out it was an Excel spreadsheet, full of macros, called [NextLifter](http://www.nextlifter.com/). It's still in use today.
 
-{{< picture "20190328/nextlifter.png" "20190328/nextlifter.png" "" >}}
+![](images/nextlifter.png)
 
 Sample of NextLifter, which is an Excel spreadsheet that makes heavy use of macros
 
-![Me at the desk](images/11229359_770713209709498_2967688509197402683_n.jpg)
+![](images/11229359_770713209709498_2967688509197402683_n.jpg)
 
 Me running the computer. I'm wearing the red shirt at the desk
 
-{{< picture "20190328/bill-henderson.png" "20190328/bill-henderson.png" "" >}}
+![](images/bill-henderson.png)
 
 The spreadsheet in action at the same comp
 
@@ -37,7 +40,7 @@ I made the change then the Excel sheet started throwing errors and showing debug
 
 **The competition came grinding to a halt.** I was horrified.
 
-![The horror](images/giphy.gif)
+https://giphy.com/gifs/reactionseditor-xUA7aRo4ELUJrPT0I0
 
 Thankfully we had everything written on paper (there's always a paper backup) so we managed to run on that but it was painful.
 
@@ -51,7 +54,7 @@ I hate naming things but when you start a new project, it's the first thing the 
 
 I then settled on a name of **_Spotter_**. I felt the name was apt as a spotter is a volunteer whose job it is to help you with the bar if you're struggling to complete your lift. You could say they've got your back.
 
-![Spotter](images/spotter.png)
+![](images/spotter.png)
 
 All the guys in white are spotters, ready to grab the barbell incase the lifter can't get it up
 
@@ -63,7 +66,7 @@ Before I started this project I mostly spent my time spare gaming. The start of 
 
 Admittedly it was hard, at first. Gaming is easy, fun and relaxing. All this coding felt like a different form of work and could be very frustrating, especially as I was learning.
 
-![Spotter](images/2017-09-10_22-28-23.png)
+![](images/2017-09-10_22-28-23.png)
 
 Screenshot from Steam. These numbers shocked me
 
@@ -75,7 +78,7 @@ My employer once told me I was not to work on anything in my spare time. I remem
 
 I decided to use a tool called [WakaTime](https://wakatime.com/). It installed into [Visual Studio](https://visualstudio.microsoft.com/) so it could track my time spent. I thought that, worse case, it would be proof I only worked on my project in my spare time.
 
-![Wakatime](images/image.png)
+![](images/image.png)
 
 Sample weekly email from WakaTime
 
@@ -95,7 +98,7 @@ I wanted to provide a self contained program - something that ran on their PC. I
 
 I wasn't familiar with XAML but I learnt it along with a bunch of other tools and frameworks, such as SQLite and Entity Framework.
 
-{{< picture "20190328/spotter-comp-screen-16-jul-2015.png" "20190328/spotter-comp-screen-16-jul-2015.png" "" >}}
+![](images/spotter-comp-screen-16-jul-2015.png)
 
 Screenshot from July 2015
 
@@ -113,11 +116,11 @@ A major challenge was that I lost MahApps. No UI framework goodness. I had to do
 
 That said, I did progress my project and built some pretty cool things. One was this [blade UI](https://liftcodeplay.com/2015/11/12/design-pattern-blades-for-sequential-data-entry-wizards-in-uwp/) control, which is similar to what is used in the Azure Portal. It later got picked up by others and made into a generic control called [BladeView](https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/bladeview) in the [UWP Community Toolkit](https://docs.microsoft.com/en-us/windows/communitytoolkit/).
 
-![Blades](images/blades.png)
+![](images/blades.png)
 
 My implementation of the Blade control. Pretty snazzy
 
-![Blades](images/teams.png)
+![](images/teams.png)
 
 Another example - this time in the definition of Teams
 
@@ -147,11 +150,11 @@ When it came the screen that actually ran the competition I realized I needed to
 
 At this point I had clocked up some serious hours in Codealike, as seen below.
 
-![Time](images/2017-11-02_22-35-22.png)
+![](images/2017-11-02_22-35-22.png)
 
 Codealike showing 413 hours tracked as of 27 Sept 2017
 
-![More time](images/2018-07-30_19-56-11.png)
+![](images/2018-07-30_19-56-11.png)
 
 Some code and behaviour facts from Codealike
 
@@ -179,7 +182,7 @@ I loved working with [Vue.js](https://vuejs.org/). I also discovered the joys of
 
 That was a big leap. I knew nothing about modern Javascript, Node and NPM. It was another case of adopting new technology, taking time to get productive and to eventually get back to where I was previously. But it was worth it.
 
-![Heaps of time tracked](images/2018-03-30_21-03-52.png)
+![](images/2018-03-30_21-03-52.png)
 
 528 hours tracked in Codealike... and growing!
 
@@ -203,7 +206,7 @@ I also experimented quite heavily with [Cloudflare Workers and Workers KV storag
 
 Sometime around this time is when I realized Codealike hadn't been tracking time for ages, especially from VS Code. In annoyance I ditched it. The following is the last screenshot I could find. Worth stressing the actual hours were a lot higher.
 
-![Heaps of time tracked](images/2018-07-30_19-47-59-1.png)
+![](images/2018-07-30_19-47-59-1.png)
 
 This is the last screenshot from Codealike
 
@@ -239,14 +242,22 @@ With my app you press a button and it did for you. Afterwards you could drag and
 
 Below are some screenshots - some highlights. What these screenshots don't show are all the loading effects, transitions and more. Also, to create an account you could use your email or Google account. All requests to Firestore had authentication/authorization.
 
-![Spotter](images/2019-03-28_20-58-36.png)
-![Spotter](images/2019-03-28_21-00-25.png)
-![Spotter](images/2019-03-28_21-01-06.png)
-![Spotter](images/2019-03-28_21-01-29.png)
-![Spotter](images/2019-03-28_21-01-41.png)
-![Spotter](images/2019-03-28_21-02-49.png)
-![Spotter](images/2019-03-28_21-05-56.png)
-![Spotter](images/2019-03-28_21-06-16.png)
+- ![](images/2019-03-28_20-58-36.png)
+    
+- ![](images/2019-03-28_21-00-25.png)
+    
+- ![](images/2019-03-28_21-01-06.png)
+    
+- ![](images/2019-03-28_21-01-29.png)
+    
+- ![](images/2019-03-28_21-01-41.png)
+    
+- ![](images/2019-03-28_21-02-49.png)
+    
+- ![](images/2019-03-28_21-05-56.png)
+    
+- ![](images/2019-03-28_21-06-16.png)
+    
 
 ## And one day I stopped working on it
 
