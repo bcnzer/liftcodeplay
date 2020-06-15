@@ -90,7 +90,7 @@ Assuming that's ok then on **line 73** - that's where I'd submit the data to a q
 
 **Line 80** is where I return the 202 status code.
 
-https://gist.github.com/bcnzer/5911b9375df24489ad327fecf6e4878c
+{{< gist bcnzer 5911b9375df24489ad327fecf6e4878c >}}
 
 # Conclusion
 

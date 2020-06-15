@@ -16,6 +16,6 @@ Once my app started talking to the API the browser did standard preflight checks
 
 To add CORS to your local project, open the **local.settings.json** file and add a CORS parameter (see lines 11-13 below). Note that this file is only used for local development, so I don't mind being lazy and using \* as the CORS hostname.
 
-https://gist.github.com/bcnzer/afabdf0be17fed2174e0aaa2c10789e6
+{{< gist bcnzer afabdf0be17fed2174e0aaa2c10789e6 >}}
 
 If you want to make a corresponding/similar change online you need to do so via the UI of the Azure Portal but I would strongly suggest you enter the hostname(s) the API will be accessed from. Don't put in star!

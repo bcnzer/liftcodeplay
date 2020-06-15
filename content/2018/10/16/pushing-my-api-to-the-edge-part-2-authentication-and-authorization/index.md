@@ -29,7 +29,7 @@ The worst part is I had to manually add to functionality to every HTTP trigger (
 
 After several rounds of refactoring and making the most of the limited dependency injection, I came up with something like the following.
 
-https://gist.github.com/bcnzer/c3d45a7bb55255ceb153a607b0bf702d
+{{< gist bcnzer c3d45a7bb55255ceb153a607b0bf702d >}}
 
 ## Authorization
 
@@ -173,7 +173,7 @@ The authorization code is lines 108-126. You can see how I get the data from the
 
 (There's more to the blog post beyond this code so keep scrolling!)
 
-https://gist.github.com/bcnzer/04620abc992da72f83f6f1c61d71c93c
+{{< gist bcnzer 04620abc992da72f83f6f1c61d71c93c >}}
 
 # It Works!
 

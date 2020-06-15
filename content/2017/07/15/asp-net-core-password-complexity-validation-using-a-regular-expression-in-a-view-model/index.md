@@ -20,6 +20,6 @@ There is no simple, elegant regex to solve the above. What I have is long becaus
 
 Here's the code and a screenshot showing it in action.
 
-https://gist.github.com/bcnzer/9ec872a30551bfb358324c83fc9579d9
+{{< gist bcnzer 9ec872a30551bfb358324c83fc9579d9 >}}
 
 \[caption id="attachment\_4046" align="aligncenter" width="469"\]![Password validation example](images/passwordvalidationexample.png) Example of the password validation in action\[/caption\]

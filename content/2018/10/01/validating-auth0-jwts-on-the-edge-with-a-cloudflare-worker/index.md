@@ -44,7 +44,7 @@ If your JWT contains authorization info, add that as well as any other standard 
 
 Here's the code. You need to include your public key information at the bottom.
 
-https://gist.github.com/bcnzer/e6a7265fd368fa22ef960b17b9a76488
+{{< gist bcnzer e6a7265fd368fa22ef960b17b9a76488 >}}
 
 Once you got the code and your public key info, try it out in the Cloudflare Worker UI. Make sure to try out a variety of tokens including valid tokens, expired tokens and tokens made invalid by changing/adding a single character.
 

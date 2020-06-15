@@ -70,7 +70,7 @@ I chose to store both these values in my Application Settings, to keep them out 
 
 Locally that meant putting them in my `local.settings.json` file. Note that this file is only for local dev. It doesn't go in source control. By default the project, in Visual Studio, lists that file in the .gitignore.
 
-https://gist.github.com/bcnzer/985ec545f8f2b32a048babf80635b8c6
+{{< gist bcnzer 985ec545f8f2b32a048babf80635b8c6 >}}
 
 [![2017-12-20_8-02-26.png](images/2017-12-20_8-02-26.png)](https://liftcodeplay.files.wordpress.com/2017/12/2017-12-20_8-02-26.png)
 

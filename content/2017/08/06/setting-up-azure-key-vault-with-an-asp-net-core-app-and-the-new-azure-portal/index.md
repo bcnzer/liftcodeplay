@@ -131,7 +131,7 @@ In my code I would access one of the Auth0 items like this: **Auth0:ClientId** b
     - I'm checking user secrets if I'm in development mode. This is how I'll get the connection string to local resources
     - Afterwards I'm getting the secrets from the vault
 
-https://gist.github.com/bcnzer/e88db55deac2217811b0e0dd18084ff7
+{{< gist bcnzer e88db55deac2217811b0e0dd18084ff7 >}}
 
 ## Step 7: Setup Key Vault secrets
 
@@ -140,7 +140,7 @@ https://gist.github.com/bcnzer/e88db55deac2217811b0e0dd18084ff7
     - ClientSecret comes from **Step 2c**
     - SecretUri comes from **Step 5**
 
-https://gist.github.com/bcnzer/1048ae4e78f7892a155dccc6f67113d8
+{{< gist bcnzer 1048ae4e78f7892a155dccc6f67113d8 >}}
 
 - Once you've done this go into all the relevant Azure Web App instances and make the corresponding changes:
     - Open the web app

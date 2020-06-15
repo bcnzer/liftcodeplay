@@ -50,7 +50,7 @@ Please note that if you use the ZeroView you will need the [longer camera adapte
 
 Open the command prompt, create a directory to store all your photos then go to it. Once there, start the process!
 
-https://gist.github.com/bcnzer/8bbf59dc7504d57b94b94d6af488879e
+{{< gist bcnzer 8bbf59dc7504d57b94b94d6af488879e >}}
 
 A few notes about the raspistill command:
 

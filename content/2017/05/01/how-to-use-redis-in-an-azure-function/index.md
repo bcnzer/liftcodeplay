@@ -29,7 +29,7 @@ This is what you need to enter in your project.json. Note that the version may b
 
 Once done, make sure to click **Save**
 
-https://gist.github.com/bcnzer/4c82a254087fa252b2a0609daf189ee5
+{{< gist bcnzer 4c82a254087fa252b2a0609daf189ee5 >}}
 
 [![redis-af-projectjson](images/redis-af-projectjson.png)](https://liftcodeplay.files.wordpress.com/2017/05/redis-af-projectjson.png)
 
@@ -63,4 +63,4 @@ Here's the start of some of some code. Doesn't do anything; it's just some sampl
 
 If you have any questions on how to do something with StackExchange.Redis, [checkout the docs](https://stackexchange.github.io/StackExchange.Redis/).
 
-https://gist.github.com/bcnzer/6530b7b31500b3727c8003cb73c332d9
+{{< gist bcnzer 6530b7b31500b3727c8003cb73c332d9 >}}

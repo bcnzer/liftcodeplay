@@ -54,7 +54,7 @@ Below is my DNS setup for [Wolf Tracker](https://www.wolftracker.nz/) (blog pos
 
 If you are proxied through Cloudflare you can use a Worker. The worker allows you to intercept a request and do whatever you like to it. Below is a simple example.
 
-https://gist.github.com/bcnzer/8918548fdac4e5cf2ff0675742912b14
+{{< gist bcnzer 8918548fdac4e5cf2ff0675742912b14 >}}
 
 With my Wolf Tracker app, I've started to do the following with Workers:
 

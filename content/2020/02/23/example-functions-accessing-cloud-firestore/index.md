@@ -21,4 +21,4 @@ The key takeaways:
 - Lines 1 & 2 - require _firebase-admin_ and _initializeApp_
 - When you use class from the require statement (in my case, _admin_), use admin.firestore() and then the syntax from there is the same as in my front end code
 
-https://gist.github.com/bcnzer/269969c38443a89be831c07adbe934c4
+{{< gist bcnzer 269969c38443a89be831c07adbe934c4 >}}

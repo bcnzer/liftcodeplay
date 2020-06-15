@@ -27,7 +27,7 @@ You can edit the proxies via the web UI or locally, if you have a local project.
 
 The key piece is line 10. What we're doing is setting a response override. In other words: always return this. In my case I choose to return a date. You can enter whatever you like.
 
-https://gist.github.com/bcnzer/7bf5ad99f894d887b08d8bc1ba9d7fc4
+{{< gist bcnzer 7bf5ad99f894d887b08d8bc1ba9d7fc4 >}}
 
 ## Version Number in Path
 

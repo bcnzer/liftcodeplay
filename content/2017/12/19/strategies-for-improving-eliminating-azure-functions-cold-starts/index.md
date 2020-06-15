@@ -84,7 +84,7 @@ If your Azure Function has issues with cold start then I imagine you're likely w
 
 In the example below I'm using an Azure Functions proxy for my Vue.js SPA at [https://wolftracker.nz](https://wolftracker.nz). I need to keep it warm, hence the GET call.
 
-https://gist.github.com/bcnzer/c5359e1acc1e22acdc9918b2b24567b1
+{{< gist bcnzer c5359e1acc1e22acdc9918b2b24567b1 >}}
 
 ### Just setup an Azure Function Timer
 

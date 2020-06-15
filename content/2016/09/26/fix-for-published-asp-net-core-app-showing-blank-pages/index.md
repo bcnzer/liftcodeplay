@@ -18,6 +18,6 @@ To fix it:
     - If publishOptions isn't there, add it
 - Re-deploy your project
 
-https://gist.github.com/spottersys/8804574f3677875c73516c58c861e1f4
+{{< gist bcnzer 8804574f3677875c73516c58c861e1f4 >}}
 
 This was a newbie problem that I encountered... As with any solution, it's obvious with hindsight!

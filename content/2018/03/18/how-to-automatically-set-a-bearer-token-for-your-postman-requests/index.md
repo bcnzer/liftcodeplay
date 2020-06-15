@@ -52,7 +52,7 @@ I went into **Pre-request Scripts** and wrote a script that does one of three th
 
 Here's the code
 
-https://gist.github.com/bcnzer/073f0fc0b959928b0ca2b173230c0669
+{{< gist bcnzer 073f0fc0b959928b0ca2b173230c0669 >}}
 
 A few things to note:
 

@@ -27,7 +27,7 @@ The downside to this approach is that, if the file doesn't exist, there'll be a 
 
 Not that `getMetadata` also works and has the same problem.
 
-https://gist.github.com/bcnzer/e36462c8afad11e95af6dff1502faba9
+{{< gist bcnzer e36462c8afad11e95af6dff1502faba9 >}}
 
 ## Method 2: list() method
 
@@ -59,7 +59,7 @@ I instead switched to creating a sub-folder for each, like you see in these pict
 
 The result was simpler code, I don't risk pulling lots of data, paginating, etc. Also made more sense to put them in separate folders as I might, in the future, have `n` associated to each document.
 
-https://gist.github.com/bcnzer/9f38b2f9f1ed8182eaa843a337ef8535
+{{< gist bcnzer 9f38b2f9f1ed8182eaa843a337ef8535 >}}
 
 [![](https://liftcodeplay.files.wordpress.com/2020/02/console.png?w=1024)](https://liftcodeplay.files.wordpress.com/2020/02/console.png)
 

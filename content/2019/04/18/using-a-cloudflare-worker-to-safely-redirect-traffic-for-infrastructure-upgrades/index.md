@@ -45,4 +45,4 @@ Once we resolved all of the above we came up with the following. This allowed us
 
 Once we're confident everything is 100% we will change the DNS to permanently point to the new infrastructure and decommission this Worker.
 
-https://gist.github.com/bcnzer/c1f2008099ff9599d12a915ddec712ed
+{{< gist bcnzer c1f2008099ff9599d12a915ddec712ed >}}

@@ -37,7 +37,7 @@ When a user enters/changes the hardcover option we want to get the storage locat
 
 For the purpose of this simple example, here’s how I am storing the different combinations or hardcover and storage locations (in code).
 
-https://gist.github.com/bcnzer/617fd48e0de118a75bbfc86e69703a2c
+{{< gist bcnzer 617fd48e0de118a75bbfc86e69703a2c >}}
 
 Example: if it’s a hardcover book the options would be: General Circulation, Backroom and Offsite storage.
 
@@ -45,7 +45,7 @@ Example: if it’s a hardcover book the options would be: General Circulation, B
 
 We need a URL for our AJAX call. I’m choosing to add a method to class **BookDetailsController**.
 
-https://gist.github.com/bcnzer/6631631ac9281ac455d89f92e867a16b
+{{< gist bcnzer 6631631ac9281ac455d89f92e867a16b >}}
 
 The code uses LINQ to get the data from my static list of locations. Perhaps in real-life this statement would be a query using Entity Framework.
 
@@ -53,7 +53,7 @@ I chose to use a POST request. I could have used GET, which would have made it e
 
 Lastly, I am using the **ValidateAntiForgeryToken** attribute. We will need to cater for that in our AJAX call. Within that form is **@Html.AntiForgeryToken()**. This is what will generate the token. Looks something like this…
 
-https://gist.github.com/bcnzer/aa7726a02a58687f7a389b995208f8d7
+{{< gist bcnzer aa7726a02a58687f7a389b995208f8d7 >}}
 
 Note that the @Html.AntiForgeryToken() method produces HTML that looks something like this. Note the name **\_\_RequestVerificationToken**
 
@@ -63,7 +63,7 @@ Note that the @Html.AntiForgeryToken() method produces HTML that looks somethin
 
 The actual AJAX call will be handled by JQuery, which comes by default in the sample ASP Core project. Here’s what the code looks like:
 
-https://gist.github.com/bcnzer/b6ff241080d34db9eff03a601d7a1876
+{{< gist bcnzer b6ff241080d34db9eff03a601d7a1876 >}}
 
 Breaking down this code, the first thing we need to do is get the parameters. We need to send:
 

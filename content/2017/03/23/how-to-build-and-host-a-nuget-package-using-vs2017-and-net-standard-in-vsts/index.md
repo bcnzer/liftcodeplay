@@ -54,7 +54,7 @@ There are many add-ons for VSTS that allow you to change the details in Assembly
 
 Here's what the csproj XML looks like. Note that if you leave the version at 1.0.0, it won't display the version tag.
 
-https://gist.github.com/bcnzer/b56c28b9ee95e88e5aa93a12d5abf330
+{{< gist bcnzer b56c28b9ee95e88e5aa93a12d5abf330 >}}
 
 ## Problem 3: What version would I use?
 
@@ -110,7 +110,7 @@ I added the following file to my project. A few key things:
 - Once it has the details it opens the XML, inserts the build number
 - Writes to the console, which is useful to see in the logs
 
-https://gist.github.com/bcnzer/f8d50699c5bf7614923bff733662cb1a
+{{< gist bcnzer f8d50699c5bf7614923bff733662cb1a >}}
 
 ## Build Process
 

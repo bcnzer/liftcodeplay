@@ -34,8 +34,8 @@ Install-Package System.Diagnostics.TraceSource -version 4.0.0
 
 The following is a complete example of the project.json.
 
-https://gist.github.com/bcnzer/7063ef232a3823d9468734ba1b5f3b19
+{{< gist bcnzer 7063ef232a3823d9468734ba1b5f3b19 >}}
 
 Note that this project.json belongs to a project running .NET Core 1.1, hence the netcoreapp1.1 entry.
 
-https://gist.github.com/spottersys/7063ef232a3823d9468734ba1b5f3b19
+{{< gist bcnzer 7063ef232a3823d9468734ba1b5f3b19 >}}

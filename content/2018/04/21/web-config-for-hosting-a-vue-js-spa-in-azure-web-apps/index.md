@@ -19,4 +19,4 @@ A web.config is required to host the content. It's for two reasons:
 
 Below is the web.config with everyone you need to fix both cases.
 
-https://gist.github.com/bcnzer/4cddbca5753546bd0a5f3781356f0e09
+{{< gist bcnzer 4cddbca5753546bd0a5f3781356f0e09 >}}

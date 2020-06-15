@@ -109,7 +109,7 @@ I really needed a wildcard and some routes to disable the worker. I decided to j
 
 I still needed to enter a value in the route so I entered a dummy route and added some logic to my Powershell script to delete it, using the Cloudflare API.
 
-https://gist.github.com/bcnzer/98afd2635efe31ca9673fec65c4fde83
+{{< gist bcnzer 98afd2635efe31ca9673fec65c4fde83 >}}
 
 The above script is as my complete deployment script. Note that my auth key and email are NOT in the script.
 

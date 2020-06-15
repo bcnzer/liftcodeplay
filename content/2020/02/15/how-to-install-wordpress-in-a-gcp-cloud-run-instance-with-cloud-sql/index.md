@@ -96,7 +96,7 @@ Config file WITH keys/salts entered
 
 There's a [setup.sh](https://github.com/bcnzer/cloudrun-cloudsql-wordpress/blob/master/setup.sh) file with a bunch of variables at the top. Here's the same file as a gist
 
-https://gist.github.com/bcnzer/aa93c771b7c016cc61d9695b7ec76d63
+{{< gist bcnzer aa93c771b7c016cc61d9695b7ec76d63 >}}
 
 You need to enter in value wherever you see **<TODO>**. The comments explains each but let's go through the ones we need to setup:
 

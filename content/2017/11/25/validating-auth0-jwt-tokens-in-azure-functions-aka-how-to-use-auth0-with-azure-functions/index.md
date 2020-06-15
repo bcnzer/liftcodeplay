@@ -78,7 +78,7 @@ In my Azure Function project I added a class simply called Security.cs. I hate n
 
 Note the use of `static`. **This is really important!** You don't want every instance of your function to call Auth0 asking for details such as the keys, to verify the token. Aside from slowing things down, Auth0 could limit responses to you. You only want to do this once.
 
-https://gist.github.com/bcnzer/8338b0a6edb7e45dc3e10b29e6e6c646
+{{< gist bcnzer 8338b0a6edb7e45dc3e10b29e6e6c646 >}}
 
 ### What is it doing?
 
@@ -94,7 +94,7 @@ And here's my function with my `AuthTest`. The code is the standard HttpTrigger 
 
 Note the use of `AuthorizationLevel.Anonymous`. You could require the use of the API key but it's not necessary.
 
-https://gist.github.com/bcnzer/44dfea610975780abd6b7277eb040138
+{{< gist bcnzer 44dfea610975780abd6b7277eb040138 >}}
 
 ## Testing
 

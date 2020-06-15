@@ -31,7 +31,7 @@ Why is this cool?
 
 Here’s an example of a Startup:
 
-https://gist.github.com/spottersys/9abf6532bdcfc70920c420add00ac1a0
+{{< gist bcnzer 9abf6532bdcfc70920c420add00ac1a0 >}}
 
 The things to point out is that the configuration information is read according the order you set out. You’ll notice it will
 
@@ -42,7 +42,7 @@ The things to point out is that the configuration information is read according 
 
 Here’s an example of a appsettings.json file
 
-https://gist.github.com/spottersys/0ff58ed24029d636090e317ca4f2dd3d
+{{< gist bcnzer 0ff58ed24029d636090e317ca4f2dd3d >}}
 
 Before we go further – two quick side-notes.
 

@@ -118,7 +118,7 @@ I added the following file to my project. A few key things:
 
 I added this file to my project. You could have this script all run inline, purely from VSTS, but the advantage of a file is you can manage it via git and you can easily make changes to this script without having to change anything in VSTS.
 
-https://gist.github.com/bcnzer/f8d50699c5bf7614923bff733662cb1a
+{{< gist bcnzer f8d50699c5bf7614923bff733662cb1a >}}
 
 Here's the PowerShell task. Note the two arguments. The first is the path to the csproj, which the script will update. The other is the current build number
 

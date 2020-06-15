@@ -71,7 +71,7 @@ The browser is different. It will often send an OPTIONS request (it's a HTTP ver
 
 Below is how I've chosen to handle the OPTIONS requests, starting at line 18. You can see an example response in Postman (next picture).
 
-https://gist.github.com/bcnzer/c8201e4efc72c79bc29093991c91ef3e
+{{< gist bcnzer c8201e4efc72c79bc29093991c91ef3e >}}
 
 ![2018-11-03_23-01-32.png](images/2018-11-03_23-01-32.png)
 
@@ -97,7 +97,7 @@ The code for the GET method starts at line 29 (below). The code:
 
 Note that, on line 35, we are returning the same headers we had in our OPTIONS header. If you forget to do this the browser will fail and say something about [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
 
-https://gist.github.com/bcnzer/3947573bcf845d1f1761934d0cc4e685
+{{< gist bcnzer 3947573bcf845d1f1761934d0cc4e685 >}}
 
 ### GET - Divisions and Weight Classes
 
@@ -117,7 +117,7 @@ I decided to keep the code as demonstrates, quite nicely, what you can do.
 
 Checkout line 39. I have all the data stored in a single key called `ipf2018`.
 
-https://gist.github.com/bcnzer/412203a71819e86c3ecf0d0ddf1770c1
+{{< gist bcnzer 412203a71819e86c3ecf0d0ddf1770c1 >}}
 
 # How to structure my data in Workers KV?
 

@@ -18,19 +18,19 @@ As I write this, the current distro of Raspbian (Jessie) includes Python 3.4.2. 
 
 Open the terminal (command prompt) and run the following commands. These will install the pre-requisites
 
-https://gist.github.com/bcnzer/337e3f160924612d0510dcb57bf8b3a0
+{{< gist bcnzer 337e3f160924612d0510dcb57bf8b3a0 >}}
 
 ## Download Python 3.6
 
 Next step is to [download from the Python](https://www.python.org/downloads/) site. Once you've downloaded it you will need to extract it (hence line 3)
 
-https://gist.github.com/bcnzer/b3056618a99b30fa064f71a849cd07fa
+{{< gist bcnzer b3056618a99b30fa064f71a849cd07fa >}}
 
 ## Compile Python
 
 Next we need to compile. This step will take a while.
 
-https://gist.github.com/bcnzer/c269ed2a2f948bcd53ed0c4849f4932b
+{{< gist bcnzer c269ed2a2f948bcd53ed0c4849f4932b >}}
 
 We're using make altinstall make to avoid having replacing the default python binary file in /usr/bin/python.
 

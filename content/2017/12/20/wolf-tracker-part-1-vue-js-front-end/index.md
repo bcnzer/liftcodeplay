@@ -52,7 +52,7 @@ Under my Azure Function I clicked **Proxies**. Click Add and you get a New Proxy
 
 \[caption id="attachment\_4610" align="alignnone" width="1225"\][![2017-12-18_7-55-28](images/2017-12-18_7-55-28.png)](https://liftcodeplay.files.wordpress.com/2017/12/2017-12-18_7-55-28.png) My mock endpoint. Note that I created the actual endpoint under a different Azure Function account. I did the above purely for the purpose of taking this picture\[/caption\]
 
-https://gist.github.com/bcnzer/2e1e392e355dc95b7f3da98a0b2ade9d
+{{< gist bcnzer 2e1e392e355dc95b7f3da98a0b2ade9d >}}
 
 Here's what it looks like in Postman. Note that this wasn't actually my URL for my mock endpoint. I setup the proxy in a different Azure Function. I've since deleted the mock proxy.
 
@@ -132,7 +132,7 @@ I went into **Hosted Pages**, clicked **Customized Login Page** and changed a fe
 - Primary color, so it better matches my look & feel (line 50)
 - Path to the logo (line 51)
 
-https://gist.github.com/bcnzer/7818f58613f5494e00d727eb50eeb320
+{{< gist bcnzer 7818f58613f5494e00d727eb50eeb320 >}}
 
 ## Auth0 Integration in my Vue.js Application
 

@@ -94,7 +94,7 @@ Checkout the first half of this article: [Implementing CI/CD with GitFlow in VS
     - I set the display name: **Delete all existing content**
     - Enter the following **Script to run**
 
-https://gist.github.com/bcnzer/b7f35ef04f1ab22bbc7e99c57c939072
+{{< gist bcnzer b7f35ef04f1ab22bbc7e99c57c939072 >}}
 
 - Next up add an Extract Files task
     - Display name: **Extract files**
@@ -121,7 +121,7 @@ The last is an attempt to set the content type. It doesn't work well, hence the 
     - Display name: **Fix the Content Types in blob storage**
     - Script to run is below
 
-https://gist.github.com/bcnzer/1658814d3456d547e09d1194feccbddb
+{{< gist bcnzer 1658814d3456d547e09d1194feccbddb >}}
 
 [![2017-12-18_22-38-07.png](images/2017-12-18_22-38-07.png)](https://liftcodeplay.files.wordpress.com/2017/12/2017-12-18_22-38-07.png)
 

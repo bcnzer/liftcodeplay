@@ -39,7 +39,7 @@ I've got a simple PS script that iterates through the blobs in a container, fixi
 
 If you were running this against an existing blob container of files, you'd have to add more types manually.
 
-https://gist.github.com/bcnzer/aa97b3399601b61b85c81ab3f8c89876
+{{< gist bcnzer aa97b3399601b61b85c81ab3f8c89876 >}}
 
 I added this as a step in VSTS to fix everything I uploaded. As mentioned in the script, if you're using VSTS I strongly suggest you store the blob key in [Azure Key Vault](http://liftcodeplay.com/2017/08/07/setting-up-azure-key-vault-with-an-asp-net-core-app-and-the-new-azure-portal/).
 

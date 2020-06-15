@@ -100,7 +100,7 @@ This is my test data structure in Firestore for the purposes of this blog post. 
 
 [![2019-12-28_10-32-25.png](images/2019-12-28_10-32-25.png)](https://liftcodeplay.files.wordpress.com/2019/12/2019-12-28_10-32-25.png)
 
-https://gist.github.com/bcnzer/32e6526fb51a1af523d8ee563b3d3d70
+{{< gist bcnzer 32e6526fb51a1af523d8ee563b3d3d70 >}}
 
 A few things to point out
 

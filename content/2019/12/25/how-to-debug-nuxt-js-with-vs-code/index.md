@@ -46,7 +46,7 @@ Create the file yourself under `.vscode/launch.json` or go into Debug and click 
 
 Once it's there copy the following into it.
 
-https://gist.github.com/bcnzer/7b0264b523d18a64f60d07fff87fb982
+{{< gist bcnzer 7b0264b523d18a64f60d07fff87fb982 >}}
 
 Your app can run in development mode on any port other than port 9222.
 
@@ -109,13 +109,13 @@ Create the file yourself under `.vscode/launch.json` or go into Debug and click 
 
 Once it's there copy the following into it.
 
-https://gist.github.com/bcnzer/cb05d6bb088760811f366d54cbd8f7f4
+{{< gist bcnzer 5f4761d862ffb1088681bdb1bf3fae44 >}}
 
 ## Config in nuxt.config.js
 
 Open your `nuxt.config.js` and find the `build` section, near the bottom. You want to add to the `extend` function as seen below
 
-https://gist.github.com/bcnzer/5f4761d862ffb1088681bdb1bf3fae44
+{{< gist bcnzer 5f4761d862ffb1088681bdb1bf3fae44 >}}
 
 ## Debugging
 

@@ -98,7 +98,7 @@ My VM has to be activated manually but it automatically shuts off by 11 PM. If I
 - Run a bunch of pip commands as seen below. The last command is to test the robot framework is working.
     - **TIP**: if the version test is not working try closing and and re-opening your command prompt. That seems to be the trick with newly added PATH variables
 
-https://gist.github.com/bcnzer/ef974ea339f990637217fb2e54b5f212
+{{< gist bcnzer ef974ea339f990637217fb2e54b5f212 >}}
 
 ### Software setup - create a queue and download the agent
 
@@ -161,7 +161,7 @@ Because my tests are in a different repo I have created a setup simple build ste
 - I would recommend you go into **Triggers** > **Continuous Integration** > **Enable**. Whenever you commit to master it will kick off a release
 - Add a PowerShell task, select Inline Script and enter the following
 
-https://gist.github.com/bcnzer/0f790232d8c71ac0ff4f572859cac184
+{{< gist bcnzer 0f790232d8c71ac0ff4f572859cac184 >}}
 
 What we're doing is copying all the files in the repo.
 
@@ -197,7 +197,7 @@ What this script does is delete any tests that are already there, then it copies
 
 It's up to you where you want to store the tests on your build server. Feel free to change the path.
 
-https://gist.github.com/bcnzer/aa0184042eb8a05a5df4538d458a91a8
+{{< gist bcnzer aa0184042eb8a05a5df4538d458a91a8 >}}
 
 [![Release2.png](images/release2.png)](https://liftcodeplay.files.wordpress.com/2017/11/release2.png)
 
@@ -259,7 +259,7 @@ You'll notice in my script below that I have a lot of parameters. That's because
 
 I'm also asking it to generate an xunit output file. This is important as I will later upload this file to VSTS. Feel free to come up with a more sensible filename :)
 
-https://gist.github.com/bcnzer/b06c43f14d2f7fc69e9b980429a4f6b1
+{{< gist bcnzer b06c43f14d2f7fc69e9b980429a4f6b1 >}}
 
 [![ReleaseTest3.png](images/releasetest3.png)](https://liftcodeplay.files.wordpress.com/2017/11/releasetest3.png)
 
@@ -269,7 +269,7 @@ At this point I want to upload all the resulting output files to blob storage. C
 
 Please note that I had to install a special add-on for inline PowerShell scripts. You can find it in the marketplace. The default one has a character limit of 500 characters.
 
-https://gist.github.com/bcnzer/3d62fb37a094dd454b7da21af94877a3
+{{< gist bcnzer 3d62fb37a094dd454b7da21af94877a3 >}}
 
 [![ReleaseTest4.png](images/releasetest4.png)](https://liftcodeplay.files.wordpress.com/2017/11/releasetest4.png)
 
@@ -313,7 +313,7 @@ This step is just a PowerShell task running a script.
 
 Here's my script
 
-https://gist.github.com/bcnzer/c954866de74b491c451c83a668ac5d48
+{{< gist bcnzer c954866de74b491c451c83a668ac5d48 >}}
 
 # Sample Output
 

@@ -18,7 +18,7 @@ I'm partially writing this purely for my benefit - in the hope the info will sti
 
 Let's say you are confronted with the following code. See lines 42 and 43. What is it doing? Why? How do use it / what do I need to do in other views?
 
-https://gist.github.com/bcnzer/4a0a92cf9449b4ed4dee5e5d1b4af0f9
+{{< gist bcnzer 4a0a92cf9449b4ed4dee5e5d1b4af0f9 >}}
 
 ## Partials
 
@@ -59,13 +59,13 @@ I want this to always be at the top of my content page but, in some cases (i.e. 
 
 The code, in \_Layout.cshtml, would look something like this. Note that I called my section **MyContentHeader**.
 
-https://gist.github.com/bcnzer/93d0e25b02e6218dac68626acf73014d
+{{< gist bcnzer 93d0e25b02e6218dac68626acf73014d >}}
 
 What this means is that, in the next page I create, ASP.NET Core is expecting a section called MyContentHeader. If it doesn't find it an exception will be thrown.
 
 In my Dashboard cshtml file I'd have something like this:
 
-https://gist.github.com/bcnzer/5c82f53d8df099d4eabb89bf3b19419c
+{{< gist bcnzer 5c82f53d8df099d4eabb89bf3b19419c >}}
 
 If I wanted to ignore that section for the Login / Registration pages I can call @**IgnoreSection("MyContentHeader")**
 

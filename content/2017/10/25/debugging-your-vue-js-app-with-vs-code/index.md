@@ -18,7 +18,7 @@ The following isn't ideal but I tried a lot of options and found this was the on
 
 VS Code uses a launch.json file to define how you debug. I've tried a bunch of options but the only one that really works is to tell Chrome to launch AND set **sourceMaps** to true like this
 
-https://gist.github.com/bcnzer/b57023584031ae90112970cb89798bb5
+{{< gist bcnzer b57023584031ae90112970cb89798bb5 >}}
 
 # Setting Breakpoints
 
@@ -26,7 +26,7 @@ Don't bother setting breakpoints - the red dots. They won't work.
 
 Instead, add the `debugging` (line 24) statement in your code like this in your vue or js file(s). These statements will act as your breakpoint.
 
-https://gist.github.com/bcnzer/b948fb4b245c43af7cad3e406acdf68a
+{{< gist bcnzer b948fb4b245c43af7cad3e406acdf68a >}}
 
 # Debugging
 
