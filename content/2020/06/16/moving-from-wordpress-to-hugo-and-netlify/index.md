@@ -10,9 +10,9 @@ tags: [
 
 I moved from WordPress and survived! Here's how.
 
-# Background
-
 ###### Photo by [Mantas Hesthaven](https://unsplash.com/@mantashesthaven?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/goodbye?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+# Background
 
 Back in 2015 I decided to start my own blog. At the time I wanted something easy to use and free of ads, so I went with WordPress.com (via a company called Automatic), purchased a domain, picked a theme and started writing.
 
