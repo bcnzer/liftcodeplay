@@ -22,7 +22,7 @@ To date I've been manually entering that token whenever I wanted to use an API e
 
 **I just want my requests to** **always** **use a valid bearer token!**
 
-\[caption id="attachment\_4684" width="290" align="aligncenter"\][![2018-03-18_20-45-41](images/2018-03-18_20-45-41.png)](https://liftcodeplay.files.wordpress.com/2018/03/2018-03-18_20-45-41.png) My tests so far. Notice they're all under a collection\[/caption\]
+![My tests under a collection](images/2018-03-18_20-45-41.png)
 
 ## Step 1 - Create some variables
 
