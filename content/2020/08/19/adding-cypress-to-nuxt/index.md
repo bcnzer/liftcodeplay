@@ -1,6 +1,6 @@
 ---
 author: "Ben Chartrand"
-title: "How to add Cypress to your Nuxt project"
+title: "How to add Cypress to your Nuxt.js project"
 date: "2020-08-19"
 image: "ryan-parker-x_0zh4ntFMM-unsplash.jpg"
 tags: [
@@ -8,7 +8,7 @@ tags: [
 ]
 ---
 
-Let me show you how to add Cypress to your Nuxt project. It's really easy but I do suggest a few extra bits of config.
+Let me show you how to add Cypress to your [Nuxt.js](https://nuxtjs.org/) project. It's really easy but I do suggest a few extra bits of config.
 
 ###### Photo by [Ryan Parker](https://unsplash.com/@dryanparker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/cypress-tree?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
