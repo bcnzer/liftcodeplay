@@ -18,12 +18,13 @@ I was in my final year of studying electronics at college. In that last year eve
 
 I chose to build a PC Weather Station. It started with a kit that provided
 * PC card with a parallel port
-* Wind direction housing and card
-* Wind speed housing and card
+* Wind direction housing and circuit board
+* Wind speed housing and circuit board
+* Central circuit board, which all the sensors connected to
 
-In addition I hand-build a temperature and light circuit board, which sent data to the same PC card. 
+In addition I build - by hand - a circuit board that measured temperature and light levels. This too sent data to the same central circuit board.
 
-Amongst the more challenging pieces of work was the wiring. I had 37 wires running from a wiring box, under under the pole, and ultimately to a parallel connector.
+Amongst the more challenging pieces of work was the wiring. I had 37 wires running from the central circuit board. On the other end was a 37 pin connector (parallel connector) which would be used to connect to the PC card.
 
 ## Software
 
@@ -55,14 +56,14 @@ I applied for a job at a local software company. It was an entry level job build
 
 I showed the interview panel my manual. They were impressed and asked if they could show it to the VP of Software Engineering.
 
-In a few days I had an interview and was later offered a position as a junior software developer!
+I had a second interview with the VP of Software Engineering and was offered a position as a junior software developer.
 
-I actually chickened out, accepted the junior position and then a few months later (once my manager saw I was bored) got my second chance at the role.
+I actually chickened out. I didn't feel I could do it. I accepted the junior position and a few months later I grew bored. My manager saw this offered to speak with the VP of Software Engineer. She did, got my second chance at the role and this time I took it!
 
 # Years later
 
-I made an effort to archive what I had left. I made a copy of:
-* the software. I even made an installation program!
+I made an effort to archive what I had left of my project. I made a copy of:
+* the software. Turns out I had even made an installation program
 * the surviving PDF of the presentation
 * some pictures I could find of the hardware
 
@@ -70,7 +71,7 @@ I no longer had the source code, manual or hardware.
 
 ## Many, many years later
 
-It's Oct 2020 and saw my archived project in my OneDrive folder. I decided to download the program and try running it. I'm using the latest Windows 10. I didn't hold out much hope as I wrote it about 22 years ago.
+It's Oct 2020 and I saw my archived project in my OneDrive folder. I decided to download the program and try running it. I'm using the latest Windows 10. I didn't hold out much hope as I wrote it about 22 years ago.
 
 Much to my surprise: **it worked**!
 
