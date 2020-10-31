@@ -9,11 +9,11 @@ tags = [
 The following are all my upcoming and completed talks.
 
 # 2020
+**31 Oct** – Wellington, NZ (Code Camp Wellington). [Kids, Coding and You: How to get involved (45 minute talk)](https://www.codecampwellington.nz/)~~
+
 The following were cancelled due to COVID-19 
 
 ~~**20 April** – Auckland, NZ (Serverless Days Auckland). [Junior Techbots: using Firebase and GCP to help teach kids coding](https://serverless.org.nz/)~~
-
-~~**04 April** – Wellington, NZ (Code Camp Wellington). [Kids, Coding and You: How to get involved (45 minute talk)](https://www.codecampwellington.nz/)~~
 
 ~~**18 March** – Auckland, NZ (Fullstack Day). [Kids, Coding and You: How to get involved (10 minute lightning talk)](https://www.fullstackday.com/2020/BenChartrand.html)~~
 
