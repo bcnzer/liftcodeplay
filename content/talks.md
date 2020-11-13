@@ -9,7 +9,7 @@ tags = [
 The following are all my upcoming and completed talks.
 
 # 2020
-**31 Oct** – Wellington, NZ (Code Camp Wellington). [Kids, Coding and You: How to get involved (45 minute talk)](https://www.codecampwellington.nz/)
+**31 Oct** – Wellington, NZ (Code Camp Wellington). [Kids, Coding and You: How to get involved (45 minute talk)](https://www.codecampwellington.nz/). [Picture](https://twitter.com/codecampwelly/status/1322308410122014720)
 
 The following were cancelled due to COVID-19 
 
