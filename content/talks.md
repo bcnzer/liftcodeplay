@@ -8,6 +8,10 @@ tags = [
 +++
 The following are all my upcoming and completed talks.
 
+# 2021
+**08 April** – Tawa, NZ (Software Engineering North Wellington & Porirua). Kids, Coding and You: How to get involved (45 minute talk)](https://www.meetup.com/en-AU/software-engineering-north-wellington-porirua/events/276511827/)
+
+
 # 2020
 **31 Oct** – Wellington, NZ (Code Camp Wellington). [Kids, Coding and You: How to get involved (45 minute talk)](https://www.codecampwellington.nz/). [Picture](https://twitter.com/codecampwelly/status/1322308410122014720)
 
