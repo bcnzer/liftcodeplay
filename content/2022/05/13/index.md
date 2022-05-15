@@ -19,6 +19,7 @@ The following is my personal experience going through the SOC 2 compliance journ
 About 8 months ago I joined Wipster as their Chief Technology Officer (CTO). One of the first tasks I was given was this "SOC 2" thing. 
 
 Turns out a major client is demanding it and, if we don't achieve it by their financial year end, we will lose them as a client.
+fixed
 ![Internally screaming](images/internallyscreaming.gif)
 
 # US: we take security seriously. THEM: prove it!
