@@ -143,7 +143,7 @@ Best of all, we did it with 6 weeks to spare! That big customer gav us the maxim
 
 I went from knowing NOTHING about this to being able to achieve this on behalf of my org. It's a relief, knowing this is 100% done. 
 
-In hindsight, I'm surprised I Was able to do it pretty much by myself, with the help of the vendors I mentioned. Talking to others that have done ISO, they talk of having a team of people and working on it for over a year. I had less than 8 months.
+In hindsight, I'm surprised I was able to do it pretty much by myself, with the help of the vendors I mentioned. Talking to others that have done ISO, they talk of having a team of people and working on it for over a year. I had less than 8 months.
 
 The process of getting ready for compliance was great for the organization. Overall, we were in pretty good shape but this was a forcing function to clean things up and ensure we had good policies and processes were in place.
 
