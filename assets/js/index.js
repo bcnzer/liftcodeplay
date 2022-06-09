@@ -545,7 +545,7 @@ function fileClosure(){
     }
   }
 
-  (function copyHeadingLink() {
+  function copyHeadingLink() {
     let deeplink, deeplinks, newLink, parent, target;
     deeplink = 'link';
     deeplinks = elems(`.${deeplink}`);
@@ -561,7 +561,7 @@ function fileClosure(){
         }
       });
     }
-  })();
+  };
 
   (function copyLinkToShare() {
     let  copy, copied, excerpt, isCopyIcon, isInExcerpt, link, postCopy, postLink, target;

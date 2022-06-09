@@ -59,7 +59,7 @@
 [errMsg]
   other = "Sorry, there was an error with the submission!"
 [moreFrom]
-  other = "More from {{ .Count }}"
+  other = "More from LIFT.CODE.PLAY"
 [discard]
   other = "discard"
 [discardComment]
